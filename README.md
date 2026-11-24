@@ -1,12 +1,12 @@
 <p align="center">
-  <a href="https://solvecha.com"><img src="https://solvecha.com/site/static/apple-touch-icon.png" width="64" height="64" alt="Solvecha"></a>
+  <a href="https://solvecha.com/?utm_source=github&utm_medium=readme&utm_campaign=solvecha-extension"><img src="https://solvecha.com/site/static/apple-touch-icon.png" width="64" height="64" alt="Solvecha"></a>
 </p>
 
 <h1 align="center">Solvecha browser extension</h1>
 
 <p align="center">
   Solves reCAPTCHA v2 image challenges in Chrome, Chromium, Playwright, Puppeteer and Selenium.<br>
-  Uses your <a href="https://solvecha.com">Solvecha</a> API key. Free tier: 100 solves per day.
+  Uses your <a href="https://solvecha.com/?utm_source=github&utm_medium=readme&utm_campaign=solvecha-extension">Solvecha</a> API key. Free tier: 100 solves per day.
 </p>
 
 ---
@@ -24,8 +24,8 @@ Each release lists the SHA-256 of the zip.
 
 ## Get an API key
 
-1. Create an account on [solvecha.com](https://solvecha.com/register). No card needed.
-2. Copy your key from the [dashboard](https://solvecha.com/dashboard).
+1. Create an account on [solvecha.com](https://solvecha.com/register?utm_source=github&utm_medium=readme&utm_campaign=solvecha-extension). No card needed.
+2. Copy your key from the [dashboard](https://solvecha.com/dashboard?utm_source=github&utm_medium=readme&utm_campaign=solvecha-extension).
 
 ## Chrome or Chromium by hand
 
@@ -98,16 +98,16 @@ Wait for the token before you submit a form: the field `g-recaptcha-response` ho
 
 ## Tips
 
-- **Fewer challenges:** run the extension in [CloakBrowser](https://solvecha.com/docs/cloakbrowser), a Chromium build with a real-looking fingerprint.
-- **No browser?** Use the [API](https://solvecha.com/docs) directly, in sync mode for one-request answers, or the [MCP server](https://solvecha.com/docs/ai-agents) for AI agents.
+- **Fewer challenges:** run the extension in [CloakBrowser](https://solvecha.com/docs/cloakbrowser?utm_source=github&utm_medium=readme&utm_campaign=solvecha-extension), a Chromium build with a real-looking fingerprint.
+- **No browser?** Use the [API](https://solvecha.com/docs?utm_source=github&utm_medium=readme&utm_campaign=solvecha-extension) directly, in sync mode for one-request answers, or the [MCP server](https://solvecha.com/docs/ai-agents?utm_source=github&utm_medium=readme&utm_campaign=solvecha-extension) for AI agents.
 - **Settings:** delays, auto-open, excluded sites and the Google-feedback switch are on the extension's settings page.
 
 ## What the extension sends
 
-Only to `api.solvecha.com`: the challenge pictures and the task text, and after each round whether Google accepted it (you can turn this off). No page addresses, no cookies. See the [privacy policy](https://solvecha.com/privacy).
+Only to `api.solvecha.com`: the challenge pictures and the task text, and after each round whether Google accepted it (you can turn this off). No page addresses, no cookies. See the [privacy policy](https://solvecha.com/privacy?utm_source=github&utm_medium=readme&utm_campaign=solvecha-extension).
 
 ## Links
 
-[Website](https://solvecha.com) · [Docs](https://solvecha.com/docs/browser-extension) · [Pricing](https://solvecha.com/pricing) · [Support](mailto:hello@marin.sh)
+[Website](https://solvecha.com/?utm_source=github&utm_medium=readme&utm_campaign=solvecha-extension) · [Docs](https://solvecha.com/docs/browser-extension?utm_source=github&utm_medium=readme&utm_campaign=solvecha-extension) · [Pricing](https://solvecha.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=solvecha-extension) · [Support](mailto:hello@marin.sh)
 
 <sub>This repository contains release builds only. © 2026 Marin Solutions UG (haftungsbeschränkt). Free to use with a Solvecha account; redistribution of modified builds is not allowed. Not affiliated with Google.</sub>
